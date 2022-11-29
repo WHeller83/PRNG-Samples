@@ -6,12 +6,12 @@ import json
 
 # Number of gathered items
 n = 1000
-samples = 500
+samples = 1000
 
 for s in range(samples):
     arr = []
 
-    name = "./ns-samples/"+"python-rand-ns"+str(s+1)+".json"
+    name = "./training/ns-samples/"+"python-rand-ns"+str(s+1)+".json"
     # Initialize generator. 
     # We initialize it so it has a consistent seed
     rand = random.Random()

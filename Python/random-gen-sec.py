@@ -5,12 +5,12 @@ from numpy.random import default_rng
 
 # Number of gathered items
 n = 1000
-samples = 500
+samples = 1000
 
 for s in range(samples):
     arr = []
 
-    name = "./sec-samples/"+"python-rand-sec"+str(s+1)+".json"
+    name = "./training/sec-samples/"+"python-rand-sec"+str(s+1)+".json"
     # Initialize generator. 
     # We initialize it so it has a consistent seed
     rand = default_rng()
