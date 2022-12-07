@@ -1,5 +1,5 @@
 <?php
-$n = 1000;
+$n = 1600;
 $training_samples = 1000;
 $testing_samples = 500;
 

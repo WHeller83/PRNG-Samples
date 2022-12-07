@@ -8,7 +8,7 @@ import org.json.simple.JSONArray;
 public class RandomGenNS {
     public static void main(String[] args) {
         // Number of gathered items
-        int n = 1000;
+        int n = 1600;
         int training_samples = 1000;
         int testing_samples = 500;
         
